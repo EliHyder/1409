@@ -14,3 +14,5 @@ ALTER TABLE Livros add preco DECIMAL AFTER ano_publicado;
 
 INSERT INTO Livros(titulo, autor, ano_publicado, preco) VALUES
 ("Banco de Dados Relacionais", "Maria Silva", 2024, 80.9);
+
+UPDATE livros set preco = 75.0 WHERE id = 1;
